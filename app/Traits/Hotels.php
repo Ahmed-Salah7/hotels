@@ -41,6 +41,9 @@ trait Hotels
             'IATA' => 'OZ',
             'adults_number' => 5,
 
+            'rate' => 5,
+            'discount' => 20,
+
         ],
 
         [
@@ -76,6 +79,8 @@ trait Hotels
             'ISO_LOCAL_DATE' => "2020-08-16",
             'IATA' => 'OZ',
             'adults_number' => 2,
+            'rate' => 4,
+            'discount' => 0,
 
         ],
 
@@ -113,6 +118,10 @@ trait Hotels
             'IATA' => 'OZ',
             'adults_number' => 1,
 
+            'rate' => 3,
+            'discount' => 30,
+
+
         ],
 
         [
@@ -148,6 +157,9 @@ trait Hotels
             'ISO_LOCAL_DATE' => "2020-07-27",
             'IATA' => 'OZ',
             'adults_number' => 3,
+
+            'rate' => 2,
+            'discount' => 10,
 
         ],
 
@@ -185,6 +197,9 @@ trait Hotels
             'ISO_LOCAL_DATE' => "2020-08-23",
             'IATA' => 'OZ',
             'adults_number' => 2,
+            'rate' => 5,
+            'discount' => 30,
+
 
         ],
 
@@ -221,6 +236,9 @@ trait Hotels
             'ISO_LOCAL_DATE' => "2020-07-23",
             'IATA' => 'OZ',
             'adults_number' => 7,
+            'rate' => 4,
+            'discount' => 20,
+
 
         ],
 
@@ -258,6 +276,10 @@ trait Hotels
             'IATA' => 'OZ',
             'adults_number' => 2,
 
+            'rate' => 2,
+            'discount' => 10,
+
+
         ],
 
         [
@@ -293,6 +315,8 @@ trait Hotels
             'ISO_LOCAL_DATE' => "2020-07-24",
             'IATA' => 'OZ',
             'adults_number' => 3,
+            'rate' => 2,
+            'discount' => 0,
 
         ],
     ];
