@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "05fa8be9-3e81-4ad9-8b18-bf20b6e99d35",
+		"name": "Hotels",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hotels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"hotels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Best Hotels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/best-hotel?city=OZ&adults_number=5&from_date=2020-08-14&to_date=2020-08-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"best-hotel"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "OZ"
+						},
+						{
+							"key": "adults_number",
+							"value": "5"
+						},
+						{
+							"key": "from_date",
+							"value": "2020-08-14"
+						},
+						{
+							"key": "to_date",
+							"value": "2020-08-25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top Hotels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/top-hotels?city=OZ&adults_number=3&from_date=2020-07-24&to_date=2020-07-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"top-hotels"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "OZ"
+						},
+						{
+							"key": "adults_number",
+							"value": "3"
+						},
+						{
+							"key": "from_date",
+							"value": "2020-07-24"
+						},
+						{
+							"key": "to_date",
+							"value": "2020-07-25"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
